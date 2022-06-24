@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width">
+    <meta name="description" content="ACME.studio official Landing Page file">
+    <meta name="keywords" content="UX, Strategy, Digital Transformation, Apps, Consulting,Software Development">
+    <meta name="author" content="ACME.studio Development team">
+
+    <link rel="stylesheet" href="assets/styles/styles.css">
+
+    <title>Trabajo Final IHC</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <div class="logo">Gest<span>All</span></div>
+        <div class="open"><img src="assets/images/menu.png" alt="menu"></div>
+        <ul class="links">
+            <li><a href="#1">Inicio</a></li>
+            <li><a href="#2">Planes</a></li>
+            <li><a href="#3">Nosotros</a></li>
+            <li><a href="#4">Contacto</a></li>
+            <div class="close"><img src="assets/images/close.png" alt="cerrar"></div>
+        </ul>
+    </nav>
+    <div class="content">
+        <h1>Las mejores gestiones con GestAll</h1>
+        <h2>Mejora tu emprendimiento con nosotros</h2>
+        <a href="#3"><button class="btn">Unirte</button></a>
+    </div>
+</header>
+
+
+<main >
+
+    <section class="about" id="1">
+        <div><h1>Nosotros</h1></div>
+
+        <div class="card">
+            <div class="head">
+                <div class="circle"></div>
+                <div class="image">
+                    <img src="assets/images/me.jpg" alt="">
+                </div>
+            </div>
+
+            <div class="description">
+                <h3>Brando Romero Loma</h3>
+                <p>Estudiante de la UPC, Futuro Ingeriero de Sofware.</p>
+            </div>
+
+
+        </div>
+
+        <div class="card">
+            <div class="head">
+                <div class="circle"></div>
+                <div class="image">
+                    <img src="assets/images/persona.png" alt="">
+                </div>
+            </div>
+
+            <div class="description">
+                <h3>Name 2</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, non?</p>
+            </div>
+
+
+        </div>
+
+        <div class="card">
+            <div class="head">
+                <div class="circle"></div>
+                <div class="image">
+                    <img src="assets/images/persona.png" alt="">
+                </div>
+            </div>
+
+            <div class="description">
+                <h3>Name 3</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, non?</p>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="head">
+                <div class="circle"></div>
+                <div class="image">
+                    <img src="assets/images/persona.png" alt="">
+                </div>
+            </div>
+
+            <div class="description">
+                <h3>Name 4</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, non?</p>
+            </div>
+
+        </div>
+
+        <div class="card">
+            <div class="head">
+                <div class="circle"></div>
+                <div class="image">
+                    <img src="assets/images/persona.png" alt="">
+                </div>
+            </div>
+
+            <div class="description">
+                <h3>Name 5</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, non?</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="servicio" id="2">
+        <h1>Nuestros Servicios</h1>
+        <div class="container">
+            <div class="box">
+                <img src="assets/images/empresario.jpg" alt="">
+                <div class="info">
+                    <h3>Emprendedor</h3>
+                    <p>Disfruta del enfoque orientada para nuevos empresarios con la mejor gestión</p>
+                    <a href="#4"><button class="btn">Conoce más</button></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/images/empresarios.jpg" alt="">
+                <div class="info">
+                    <h3>Empresarios</h3>
+                    <p>Accede a funciones que te permitiran ahorrar inteligentemente y goza de un sistema de gestión completa.</p>
+                    <button class="btn">Conoce más</button>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="Gest" id="3">
+        <h1>Sobre Gest-All</h1>
+        <p>Hemos notado la Crisis económica en el Perú y La deficiente educación financiera de los usuarios, esto causo malas gestiones tamto en usuarios como empresas. Asi que desarrollamos una app para realizar la mejor gestión.</p>
+        <div class="items">
+            <div class="tem">
+                <img src="assets/images/idea.png" alt="">
+
+            </div>
+            <div class="tem">
+                <img src="assets/images/ejecucion.png" alt="">
+
+            </div>
+
+            <div class="tem">
+                <img src="assets/images/meta.jpg" alt="">
+
+            </div>
+
+        </div>
+    </section>
+
+
+</main>
+
+<footer>
+    <div class="contenedor-footer">
+        <div class="content-foo">
+            <a href="" target="_blank">
+                <i class="fab fa-facebook"></i>
+            </a>
+        </div>
+        <div class="content-foo">
+            <a href="" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+        </div>
+        <div class="content-foo">
+            <a href="" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </div>
+
+    <h2 class="titulo-final">Created by &copy;Grupo AlbaTeam IHC-SI44 | Todos los derechos reservados</h2>
+</footer>
+
+<!-- Javascript -->
+<script>
+    var mainMenu = document.querySelector('.links');
+    var openMenu = document.querySelector('.open')
+    var closeMenu = document.querySelector('.close')
+
+    function show(){
+        mainMenu.style.display = 'flex'
+        mainMenu.style.right = '0'
+    }
+    function close(){
+        mainMenu.style.right = '-60%'
+    }
+
+    openMenu.addEventListener('click', show)
+    closeMenu.addEventListener('click', close)
+</script>
+
+</body>
+
+</html>
