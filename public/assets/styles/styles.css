@@ -23,69 +23,51 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* Header */
-header{
+/*Header*/
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),
-    url(../images/background.jpg);
-    background-position: center;
-    background-size: cover;
-    clip-path: polygon(100% 0, 100% 86%, 48% 100%, 0 86%, 0 0);
-}
-nav{
-    padding: 2% 6%;
-    display: flex;
-    justify-content: space-between;
+    display: block;
+    justify-content: left;
     align-items: center;
-    color: #fff;
+    color: gray;
+    background-color: white;
+    padding: 10px 60px;
+
 }
-nav .logo{
-    font-size: 3rem;
+.LogoPersonalizado { margin:auto; padding: 10px; width: 200px; }
+
+.menu {
+    display: none;
+    width: 50px;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
     cursor: pointer;
 }
-nav .logo span{
-    color: yellowgreen;
+
+nav {
+    display: flex;
 }
-nav .links{
-    padding-left: 0;
+
+header nav li {
+    margin: 0 78px;
 }
-nav .links li{
-    display: inline-block;
-    margin-left: 1rem;
-    font-size: 1.5rem;
-}
-nav .links li a{
-    color: #fff;
-}
-.links .active{
-    color: yellowgreen;
-}
-nav .links li a:hover{
-    color: yellowgreen;
-}
-header .content{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-header .content h1{
-    font-size: 50px;
-    text-transform: none;
-    color: white;
-}
-header .content h2{
-    margin-top: 30px ;
-    font-family: "Times New Roman";
-    color: white;
+
+header nav li a {
+    color:black;
+    text-decoration: blue;
+    font-size: 18px;
 }
 .btn{
     padding: 0.5rem 1.5rem;
-    background-color: transparent;
-    border: 0.3rem solid yellowgreen;
-    color: yellowgreen;
+    background-color: gray;
+    border: 0.3rem solid cornflowerblue;
+    color: white;
     margin-top: 1.8rem;
     cursor:pointer;
     border-radius: 0.5rem;
