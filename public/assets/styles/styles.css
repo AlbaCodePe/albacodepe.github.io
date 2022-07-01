@@ -12,10 +12,7 @@
     transition: all 0.3s linear;
     outline: none;
 }
-*::selection{
-    background-color: yellowgreen;
-    color: #fff;
-}
+
 :root{
     scroll-behavior: smooth;
 }
@@ -23,7 +20,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/*Header*/
 header {
     position: relative;
     top: 0;
@@ -35,7 +31,7 @@ header {
     align-items: center;
     color: gray;
     background-color: white;
-    padding: 10px 60px;
+    padding: 10px 90px;
 
 }
 .LogoPersonalizado { margin:auto; padding: 10px; width: 200px; }
@@ -55,7 +51,7 @@ nav {
 }
 
 header nav li {
-    margin: 0 78px;
+    margin: 0 135px;
 }
 
 header nav li a {
@@ -63,8 +59,6 @@ header nav li a {
     text-decoration: blue;
     font-size: 18px;
 }
-
-
 /* The switch - the box around the slider */
 .switch {
     position: relative;
@@ -121,14 +115,13 @@ input:checked + .slider:before {
 
 /* Rounded sliders */
 .slider.round {
-    border-radius: 34px;
+    border-radius: 50px;
 }
 
 .slider.round:before {
     border-radius: 50%;
 }
 
-/**/
 .btn{
     padding: 0.5rem 1.5rem;
     background-color: gray;
