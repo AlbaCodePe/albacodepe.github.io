@@ -51,7 +51,7 @@ nav {
 }
 
 header nav li {
-    margin: 0 133px;
+    margin: 0 111px;
 }
 
 header nav li a {
@@ -487,6 +487,28 @@ main .Contact div h1{
     width: 236px;
 }
 
+
+
+/* Video - Us */
+main .Video{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: whitesmoke;
+    flex-wrap: wrap;
+}
+
+main .Video div h1{
+    font-size: 3rem;
+    padding: 2% 6%;
+    color: black;
+}
+
+.Video-buttons a img {
+    width: 236px;
+}
 /* Footer */
 footer{
     background: #414141;
